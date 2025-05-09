@@ -3,7 +3,7 @@ export function getLastDelegation(delegation) {
     if (delegation == undefined || delegation == null ) {
         return [];
     }
-
+    
     let delegationInfo = [];
     let lastCountry = "";
     let maxSpeed = 0;
