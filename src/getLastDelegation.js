@@ -13,6 +13,11 @@ export function getLastDelegation(delegation) {
     }
 
     for (let i = 0; i < delegationInfo.length; i++) {
+
+        if (delegationInfo[i][2] == '' || delegationInfo[i][1] == '') {
+            return Error('Error');
+        }
+
         if (i == 0) {
             lastCountry = delegationInfo[i][0];
             maxSpeed = parseFloat(delegationInfo[i][1]) / parseFloat(delegationInfo[i][2]);
