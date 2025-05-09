@@ -1,0 +1,25 @@
+{
+  "name": "equipe_4",
+  "version": "1.0.0",
+  "description": "STD24178 : ANDRINJATOVO Fenohanta Fiononantsoa\r STD24183 : RAHARINANDRASANA Willys Sadi Arnel \r STD24187 : BAKARI Safidy Nantenaina Zinedis\r STD24191 : RATOLOJANAHARY Mamitiana Antonio",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Arnel-rah/Equipe_4.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC", 
+  "type": "module",
+  "bugs": {
+    "url": "https://github.com/Arnel-rah/Equipe_4/issues"
+  },
+  "homepage": "https://github.com/Arnel-rah/Equipe_4#readme",
+  "dependencies": {
+    "chai": "^5.2.0",
+    "mocha": "^11.2.2"
+  }
+}
